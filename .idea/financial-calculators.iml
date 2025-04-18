@@ -6,6 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/MortgageCalculators/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/MortgageCalculators/src/main/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/MortgageCalculators/src/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/FutureValueCalc/src/main/java" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

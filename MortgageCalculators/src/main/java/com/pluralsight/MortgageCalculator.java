@@ -11,13 +11,13 @@ public class MortgageCalculator {
 
         //region Ask user for data and store in variables
         System.out.println("What is the principal(original amount borrowed) of your loan? ");
-        double principal = myScanner.nextInt();
+        double principal = myScanner.nextDouble();
 
         System.out.println("What is the interest rate percentage of your loan? ");
-        double interestRate = myScanner.nextFloat();
+        double interestRate = myScanner.nextDouble();
 
         System.out.println("What is the length of your loan (in years)? ");
-        double loanLength = myScanner.nextFloat();
+        double loanLength = myScanner.nextDouble();
         //endregion
 
         // Find how many monthly payments
@@ -31,9 +31,8 @@ public class MortgageCalculator {
         double totalInterestPaid = principal * interestRate * loanLength;
 
         // Print out user's monthly payments and their total interest paid
-        System.out.println("\nYour monthly payment: " + "$" + monthlyPayments);
-        System.out.println("Your total interest paid: \n" + + totalInterestPaid);
-        System.out.printf("\nYour total interest is: $%.2f", totalInterestPaid);
+        System.out.println("\nYour monthly payment: \n" + "$" + monthlyPayments);
+        System.out.println("Your total interest paid: \n" + "$" + totalInterestPaid);
 
     }
 }
